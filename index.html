@@ -63,6 +63,8 @@
         <p>Here you can find a selection of unblocked games to enjoy:</p>
         <h3>Play Slope Game:</h3>
         <button onclick="openSlopeGame()">Play Slope Game</button>
+        <h3>Play Bitlife Game:</h3>
+        <button onclick="openBitlifeGame()">Play Bitlife Game</button>
     </div>
 
     <script>
@@ -90,6 +92,10 @@
         function openSlopeGame() {
             const newTab = window.open('about:blank', '_blank');
             newTab.document.write('<html><body><iframe src="https://slope-game.io/embed" style="width: 100%; height: 100%; border: none;"></iframe></body></html>');
+        }
+        function openBitlifeGame() {
+            const newTab = window.open('about:blank', '_blank');
+            newTab.document.write('<html><body><iframe src="https://piplup7575.github.io/bitlife/" style="width: 100%; height: 100%; border: none;"></iframe></body></html>');
         }
 
         // Disable right-click, F12, and Ctrl+Shift+I
